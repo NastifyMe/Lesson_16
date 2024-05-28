@@ -1,0 +1,22 @@
+.container{
+    width: 800px;
+    display: flex;
+    transition: 3s ease;
+    &:hover{
+        width: 600px;
+        background-color: aqua;
+    }
+}
+.container-item{
+    flex-basis: 200px;
+    background-color: yellow;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid blue;
+}
+.item-1{
+    flex-shrink: 0;
+}
